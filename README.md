@@ -53,5 +53,42 @@ Electron是一个非常流行的使用JavaScript和Node.js创建跨端桌面应�
 
 [第十二章](chap11/README.md),打包和分发应用,解释如何为最终产品打包应用。本章包括打包和分发我们的应用需要的各种库，描述如何为每个平台移植本地包，如何在有更新时自动更新，创建ASAR包，为每个平台创建安装软件以及各大应用商店的上线指导。
 
+## 阅读本书前的准备
+- 一个文本编辑器来创建HTML、CSS和JavaScript文件；你也可以使用你钟意的编辑器。
+- 安装版本4.x及以后或最新的Node.js的系统，推荐使用至少6.x及之后的版本。
+- 一个包管理器，诸如npm或者yarn；npm将会在Node.js安装过程中默认安装。
+- （可选）安装Git客户端的电脑，如果你需要从我们的Git仓库直接check out源码。
+
+## 该书读者群
+如果你是一个对HTML、CSS和JavaScript比较熟悉的开发者，并且希望开发用上述技术开发桌面应用，那么本书是为你而写的。
+本书也是为那些有经验的JavaScript开发者并对前端开发和Node.js开发有基础了解的开发者而写。
+本书也适合那些想用他们开发web开发中的技术开发一款桌面应用的前端/web开发者。
+
+## 约定
+在本书中，你将看到一些特殊的文本样式，下面是这样样式及其解释。
+
+代码片段，数据库表名，文件夹名称，文件名，文件扩展名，路径名称，虚拟URLs，用户输入，以及推特链接将如下显示：Electron then loads the HTML page using the `loadurl` function。
+代码块如下：
+```js
+{
+  "name"    : "your-app",
+  "version" : "0.1.0",
+  "main"    : "main.js"
+}
+```
+
+任何命令行输入和输出如下：
+```git
+ curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+ sudo apt-get install -y node.js
+```
+**新的表达方式**和**重要词语**将用粗体展示。在屏幕上看到的句子，例如，在菜单中或者对话窗口，出现在被引用的文本环绕，或者像这样：Just hit the Download button and click OK.
+
+![img](img/info.png)出现在框内的警告或者重要提示像这样。
+
+![img](img/tip.png)提示和诀窍像这样。
+
+
+
 ## 说明
 本书为本人在业余时间翻译，因本人专业水平和翻译水平有限，导致翻译不尽人意，还望见谅，还望您提供宝贵的修改意见帮助一同改善本书的质量，谢谢！
